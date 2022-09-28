@@ -1,0 +1,7 @@
+# Tracing options for the ui.diagram plug-in
+
+# Common issues
+ui.diagram/debug=false
+
+# Visual IDs
+ui.diagram/debug/visualID=false

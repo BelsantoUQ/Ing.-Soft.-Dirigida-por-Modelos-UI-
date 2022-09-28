@@ -1,0 +1,116 @@
+@namespace(uri="filesystem", prefix="filesystem")
+@gmf
+package filesystem;
+//parte concreta
+
+//principal
+@gmf.diagram
+class Ui_Diagram {
+    val UserInterface[*] drives;
+  
+}
+
+
+//la interfgaz de usuariopuede tener 2 grandes grupos o pueden tener elementos demodelado
+//lo que tiene una interfaz de usuarios (agregar las que faltan ,color borde ,etc)
+@gmf.node(label = "name")
+class UserInterface extends ModelElement{
+    attr String title;
+    @gmf.compartment
+    val ModelElement[*] lstWidgets;
+    
+}
+
+//todos los elementos del modelado,lo que tiene la interfaz
+//modificar las propiedades que uno quiera
+class ModelElement{
+	
+attr String name;
+attr String idModelElement;
+attr String colour;
+attr String posX;
+attr String posY;
+attr String width;
+attr String heigt;
+attr String backgroundColor;
+attr String longitud;
+
+}
+
+
+// existen dos ngrupos de widget ""contenedor"" y ""individual""
+// se pueden clasificar en diferentes grupos ,botones ,etc.permiten recursividad ,caja dentro de otra caja
+
+
+//cualquier contenedor grafico 
+//grupo 1
+class GraphicalContainer extends ModelElement{		
+}
+
+class  Combo extends GraphicalContainer {		
+}
+
+class  Group extends GraphicalContainer {		
+}
+
+
+class  Table extends GraphicalContainer {		
+}
+
+class  Column extends GraphicalContainer {		
+}
+
+class MenuBar extends GraphicalContainer {		
+}
+
+class  BorderLayout extends GraphicalContainer {		
+}
+
+
+
+// se pueden clasificar en diferentes grupos ,botones ,etc
+//grupo 2
+class IndividualContainer extends ModelElement{	
+}
+
+@gmf.node(label = "name")
+class Label extends IndividualContainer {		
+}
+
+
+@gmf.node(label = "name")
+class Button extends IndividualContainer {		
+}
+
+@gmf.node(label = "name")
+class TextInput extends IndividualContainer {		
+}
+
+@gmf.node(label = "name")
+class TexField extends IndividualContainer {		
+}
+
+
+@gmf.node(label = "name")
+class Checkbox extends IndividualContainer {		
+}
+
+
+@gmf.node(label = "name")
+class AlertaDialog extends IndividualContainer {		
+}
+
+@gmf.node(label = "name")
+class SimpleDialog extends IndividualContainer {		
+}
+
+
+
+
+
+
+
+
+
+
+
