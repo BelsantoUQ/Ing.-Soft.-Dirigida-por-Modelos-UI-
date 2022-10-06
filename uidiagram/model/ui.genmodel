@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/uidiagram/src" modelPluginID="uidiagram"
+    modelName="Uidiagram" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>ui.emf</foreignModel>
+  <genPackages prefix="Uidiagram" disposableProviderFactory="true" ecorePackage="ui.ecore#/">
+    <genClasses ecoreClass="ui.ecore#//ModelFactory">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ui.ecore#//ModelFactory/listaDiagramas"/>
+    </genClasses>
+    <genClasses ecoreClass="ui.ecore#//Ui_Diagram">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ui.ecore#//Ui_Diagram/listUserInterface"/>
+    </genClasses>
+    <genClasses ecoreClass="ui.ecore#//UserInterface">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/idModelElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/colour"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/posX"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/posY"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/width"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/heigt"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/backgroundColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//UserInterface/longitud"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ui.ecore#//UserInterface/lstWidgets"/>
+    </genClasses>
+    <genClasses ecoreClass="ui.ecore#//ModelElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/idModelElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/colour"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/posX"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/posY"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/width"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/heigt"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/backgroundColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ui.ecore#//ModelElement/longitud"/>
+    </genClasses>
+    <genClasses ecoreClass="ui.ecore#//GraphicalContainer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ui.ecore#//GraphicalContainer/lstWidgets"/>
+    </genClasses>
+    <genClasses ecoreClass="ui.ecore#//Combo"/>
+    <genClasses ecoreClass="ui.ecore#//Group"/>
+    <genClasses ecoreClass="ui.ecore#//Table">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ui.ecore#//Table/lstColumns"/>
+    </genClasses>
+    <genClasses ecoreClass="ui.ecore#//MenuBar"/>
+    <genClasses ecoreClass="ui.ecore#//BorderLayout"/>
+    <genClasses ecoreClass="ui.ecore#//IndividualElement"/>
+    <genClasses ecoreClass="ui.ecore#//Label"/>
+    <genClasses ecoreClass="ui.ecore#//Button"/>
+    <genClasses ecoreClass="ui.ecore#//TextInput"/>
+    <genClasses ecoreClass="ui.ecore#//TexField"/>
+    <genClasses ecoreClass="ui.ecore#//Checkbox"/>
+    <genClasses ecoreClass="ui.ecore#//AlertaDialog"/>
+    <genClasses ecoreClass="ui.ecore#//SimpleDialog"/>
+    <genClasses ecoreClass="ui.ecore#//Column"/>
+  </genPackages>
+</genmodel:GenModel>

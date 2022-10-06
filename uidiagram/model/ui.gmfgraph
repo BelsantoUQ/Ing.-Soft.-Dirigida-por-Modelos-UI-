@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="uidiagram">
+  <figures name="Default">
+    <descriptors name="UserInterfaceFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="UserInterfaceFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="UserInterfaceLabelFigure" text="UserInterface">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="UserInterfaceLstWidgetsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureUserInterfaceLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+      <accessors accessor="getUserInterfaceLstWidgetsCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ComboFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ComboFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ComboLabelFigure" text="Combo">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ComboLstWidgetsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureComboLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+      <accessors accessor="getComboLstWidgetsCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="GroupFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="GroupFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="GroupLabelFigure" text="Group">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="GroupLstWidgetsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureGroupLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+      <accessors accessor="getGroupLstWidgetsCompartmentFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="TableFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="TableFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="TableLabelFigure" text="Table">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="TableLstWidgetsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureTableLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors accessor="getTableLstWidgetsCompartmentFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="MenuBarFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="MenuBarFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="MenuBarLabelFigure" text="MenuBar">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="MenuBarLstWidgetsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureMenuBarLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+      <accessors accessor="getMenuBarLstWidgetsCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="BorderLayoutFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="BorderLayoutFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="BorderLayoutLabelFigure" text="BorderLayout">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="BorderLayoutLstWidgetsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureBorderLayoutLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.0"/>
+      <accessors accessor="getBorderLayoutLstWidgetsCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="LabelFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="LabelFigure" outline="false">
+        <children xsi:type="gmfgraph:Label" name="LabelLabelFigure" text="Label"/>
+      </actualFigure>
+      <accessors accessor="getFigureLabelLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ButtonFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ButtonFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ButtonLabelFigure" text="Button"/>
+      </actualFigure>
+      <accessors accessor="getFigureButtonLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="TextInputFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="TextInputFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="TextInputLabelFigure" text="TextInput"/>
+      </actualFigure>
+      <accessors accessor="getFigureTextInputLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="TexFieldFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="TexFieldFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="TexFieldLabelFigure" text="TexField"/>
+      </actualFigure>
+      <accessors accessor="getFigureTexFieldLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="CheckboxFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="CheckboxFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="CheckboxLabelFigure" text="Checkbox"/>
+      </actualFigure>
+      <accessors accessor="getFigureCheckboxLabelFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="AlertaDialogFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="AlertaDialogFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="AlertaDialogLabelFigure" text="AlertaDialog"/>
+      </actualFigure>
+      <accessors accessor="getFigureAlertaDialogLabelFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="SimpleDialogFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="SimpleDialogFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="SimpleDialogLabelFigure" text="SimpleDialog"/>
+      </actualFigure>
+      <accessors accessor="getFigureSimpleDialogLabelFigure" figure="//@figures.0/@descriptors.12/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ColumnFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ColumnFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ColumnLabelFigure" text="Column"/>
+      </actualFigure>
+      <accessors accessor="getFigureColumnLabelFigure" figure="//@figures.0/@descriptors.13/@actualFigure/@children.0"/>
+    </descriptors>
+  </figures>
+  <nodes name="UserInterface" figure="UserInterfaceFigure"/>
+  <nodes name="Combo" figure="ComboFigure"/>
+  <nodes name="Group" figure="GroupFigure"/>
+  <nodes name="Table" figure="TableFigure"/>
+  <nodes name="MenuBar" figure="MenuBarFigure"/>
+  <nodes name="BorderLayout" figure="BorderLayoutFigure"/>
+  <nodes name="Label" figure="LabelFigure"/>
+  <nodes name="Button" figure="ButtonFigure"/>
+  <nodes name="TextInput" figure="TextInputFigure"/>
+  <nodes name="TexField" figure="TexFieldFigure"/>
+  <nodes name="Checkbox" figure="CheckboxFigure"/>
+  <nodes name="AlertaDialog" figure="AlertaDialogFigure"/>
+  <nodes name="SimpleDialog" figure="SimpleDialogFigure"/>
+  <nodes name="Column" figure="ColumnFigure"/>
+  <compartments name="UserInterfaceLstWidgetsCompartment" figure="UserInterfaceFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <compartments name="ComboLstWidgetsCompartment" figure="ComboFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <compartments name="GroupLstWidgetsCompartment" figure="GroupFigure" collapsible="true" accessor="//@figures.0/@descriptors.2/@accessors.1"/>
+  <compartments name="TableLstWidgetsCompartment" figure="TableFigure" collapsible="true" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <compartments name="MenuBarLstWidgetsCompartment" figure="MenuBarFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.1"/>
+  <compartments name="BorderLayoutLstWidgetsCompartment" figure="BorderLayoutFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
+  <labels name="UserInterfaceLabel" figure="UserInterfaceFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="ComboLabel" figure="ComboFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="GroupLabel" figure="GroupFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="TableLabel" figure="TableFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="MenuBarLabel" figure="MenuBarFigure" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="BorderLayoutLabel" figure="BorderLayoutFigure" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="LabelLabel" figure="LabelFigure" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="ButtonLabel" figure="ButtonFigure" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="TextInputLabel" figure="TextInputFigure" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="TexFieldLabel" figure="TexFieldFigure" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+  <labels name="CheckboxLabel" figure="CheckboxFigure" accessor="//@figures.0/@descriptors.10/@accessors.0"/>
+  <labels name="AlertaDialogLabel" figure="AlertaDialogFigure" accessor="//@figures.0/@descriptors.11/@accessors.0"/>
+  <labels name="SimpleDialogLabel" figure="SimpleDialogFigure" accessor="//@figures.0/@descriptors.12/@accessors.0"/>
+  <labels name="ColumnLabel" figure="ColumnFigure" accessor="//@figures.0/@descriptors.13/@accessors.0"/>
+</gmfgraph:Canvas>
